@@ -22,7 +22,7 @@ Installer nodejs et npm
 ```sh
 $ npm install
 
-### Accéder à Alexa Developer Console ou DialogFlow pour Google Home
+## Accéder à Alexa Developer Console ou DialogFlow pour Google Home
 
 Cette partie permet de pouvoir tester sont application pour assistant vocal.
 Si l'utilisateur le souhaite il peut tout à fait aussi déployer son application sur un assistant vocal physique.
@@ -33,7 +33,6 @@ Pour notre part, on va tester sur Alexa.
 - Créez vous un compte
 - Puis créez vous un nouveau skill (ce qui correspond à une nouvelle application)
 - Sur votre nouveau skill garder bien le 'skill id' que vous pouvez obtenir en cliquant sur 'voir skill id'
-
 - Maintenant retourner dans votre solution, dans le fichier app.json remplacer "Votre skillId" par le votre.
 
 ## Deployer application
@@ -41,5 +40,8 @@ $ jovo build // Build l'application
 $ jovo deploy // Deploy l'application sur la plateforme de Alexa et de Google Home
 $ jovo run // Run l'application en lançant un serveur sur le port 3000
 ```
+## Sur la plateforme Alexa
 
-<!-- Ne pas oublier les clés, ... -->
+- Cliquez sur le bouton test
+- Dans la barre de conversation écriver "my mobility", ce qui correspond à votre invocation. Ce qui permet de lancer l'application (voir la documentation)
+- Puis converser en fonction des Intents que vous avez définis.
