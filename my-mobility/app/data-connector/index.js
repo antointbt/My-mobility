@@ -6,8 +6,8 @@ class LaStar {
       this.site_url_metro_kennedy = "https://data.opendatasoft.com/api/records/1.0/search/?dataset=tco-metro-circulation-passages-tr%40keolis-rennes&rows=1000&facet=nomcourtligne&facet=sens&facet=destination&facet=nomarret&facet=precision&refine.sens=1&timezone=Europe%2FBerlin"
       this.site_url_metro_poterie = "https://data.opendatasoft.com/api/records/1.0/search/?dataset=tco-metro-circulation-passages-tr%40keolis-rennes&rows=1000&facet=nomcourtligne&facet=sens&facet=destination&facet=nomarret&facet=precision&refine.sens=0&timezone=Europe%2FBerlin"
       this.site_url = "https://data.opendatasoft.com/api/records/1.0/search/?dataset=mkt-titres-pointsvente-agences-td%40keolis-rennes&sort=nom&facet=nomcommune&facet=accepteespeces&facet=acceptecb&facet=estgestiontr&facet=estcreationkorrigo&facet=estventeabonnementsvls&facet=estventeabonnementstco&facet=estinformationvls&facet=codeinseecommune&facet=acceptecheques&facet=estinformationtco&facet=estsavkorrigo&facet=estventeticketstco";
-      this.username = "antoine.boudet@epitech.eu";
-      this.password = "AB1797!:sxiriuxopendatasoft";
+      this.username = "";
+      this.password = "";
     }
 
     _request(method, url, callback, errorCallback){

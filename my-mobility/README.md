@@ -1,4 +1,4 @@
-# My Mobility avec Jovo Framework
+# My-Mobility avec Jovo Framework
 
 [![Jovo Framework](https://www.jovo.tech/img/github-logo.png)](https://www.jovo.tech)
 
@@ -9,9 +9,10 @@
 <a href="https://github.com/jovotech/jovo-cli"><strong>CLI </strong></a></p>
 <br/>
 
-# Template: Hello World
+## Installer My-Mobility
 
-Jovo Sample Voice App with a simple "Hello World!" + asking for the user's name. This is the default template for the `jovo new` command:
+My-Mobility est un programme destiné à un assistant vocal tel que Google Home, ou Amazon Alexa.
+Cette application, permet de poser des questions à un assistant vocal sur les transports en commun (ici Rennes Métropole)
 
 ```sh
 $ jovo new <directory>
