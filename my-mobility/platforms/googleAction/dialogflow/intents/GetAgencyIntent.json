@@ -1,0 +1,5 @@
+{
+	"name": "GetAgencyIntent",
+	"auto": true,
+	"webhookUsed": true
+}

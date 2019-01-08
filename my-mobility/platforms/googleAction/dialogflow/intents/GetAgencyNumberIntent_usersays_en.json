@@ -1,0 +1,62 @@
+[
+	{
+		"data": [
+			{
+				"text": "agency",
+				"userDefined": true,
+				"alias": "agency",
+				"meta": "@myAgencyInputType"
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	},
+	{
+		"data": [
+			{
+				"text": "Qu'elle est le numero de l'agence ",
+				"userDefined": false
+			},
+			{
+				"text": "agency",
+				"userDefined": true,
+				"alias": "agency",
+				"meta": "@myAgencyInputType"
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	},
+	{
+		"data": [
+			{
+				"text": "Qu'elle est le telephone de l'agence ",
+				"userDefined": false
+			},
+			{
+				"text": "agency",
+				"userDefined": true,
+				"alias": "agency",
+				"meta": "@myAgencyInputType"
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	},
+	{
+		"data": [
+			{
+				"text": "Donne moi le telephone de l'agence ",
+				"userDefined": false
+			},
+			{
+				"text": "agency",
+				"userDefined": true,
+				"alias": "agency",
+				"meta": "@myAgencyInputType"
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	}
+]

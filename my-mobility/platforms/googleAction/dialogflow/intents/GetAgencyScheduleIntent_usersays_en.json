@@ -1,0 +1,46 @@
+[
+	{
+		"data": [
+			{
+				"text": "day",
+				"userDefined": true,
+				"alias": "day",
+				"meta": "@myAgencyScheduleType"
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	},
+	{
+		"data": [
+			{
+				"text": "Qu'elle est sont horaire du ",
+				"userDefined": false
+			},
+			{
+				"text": "day",
+				"userDefined": true,
+				"alias": "day",
+				"meta": "@myAgencyScheduleType"
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	},
+	{
+		"data": [
+			{
+				"text": "Donne moi son horaire du ",
+				"userDefined": false
+			},
+			{
+				"text": "day",
+				"userDefined": true,
+				"alias": "day",
+				"meta": "@myAgencyScheduleType"
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	}
+]

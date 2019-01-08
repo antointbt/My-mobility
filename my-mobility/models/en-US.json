@@ -1,0 +1,202 @@
+{
+	"invocation": "my mobility",
+	"intents": [
+		{
+			"name": "HelloWorldIntent",
+			"phrases": [
+				"hello",
+				"say hello",
+				"say hello world"
+			]
+		},
+		{
+			"name": "GetAgencyIntent",
+			"phrases": [
+				"Qu'elle sont les agences de la star",
+				"Qu'elle sont les agences",
+				"Donne moi les agences de la star"
+			]
+		},
+		{
+			"name": "GetAgencyNumberIntent",
+			"phrases": [
+				"{agency}",
+				"Qu'elle est le numero de l'agence {agency}",
+				"Qu'elle est le telephone de l'agence {agency}",
+				"Donne moi le telephone de l'agence {agency}",
+				"Donne moi le numero de telephone de l'agence {agency}"
+			],
+			"inputs": [
+				{
+			        "name": "agency",
+			        "type": "myAgencyInputType"
+			    }
+			]
+		},
+		{
+			"name": "GetAgencyScheduleIntent",
+			"phrases": [
+				"{day}",
+				"Qu'elle est sont horaire du {day}",
+				"Qu'elle est sont horaire le {day}",
+				"Donne moi son horaire du {day}"
+				"Donne moi son horaire le {day}"
+			],
+			"inputs": [
+				{
+			        "name": "day",
+			        "type": "myAgencyScheduleType"
+			    }
+			]
+		},
+		{
+			"name": "getSubwayScheduleIntent",
+			"phrases": [
+				"{station}",
+				"l'horaire du metro à la station {station}",
+				"Qu'elle est l'horaire de la station {station}"
+			],
+			"inputs": [
+				{
+			        "name": "station",
+			        "type": "mysubwayScheduleType"
+			    }
+			]
+		}
+	],
+	"inputTypes": [
+	    {
+	        "name": "myAgencyInputType",
+	        "values": [
+	            {
+	                "value": "Espace Korrigo"
+	            },
+	            {
+	                "value": "Pré Botté"
+	            },
+	            {
+	                "value": "Maison du VELO"
+	            },
+	            {
+	                "value": "Henri Fréville"
+	            }
+	        ]
+	    },
+	    {
+	        "name": "myAgencyScheduleType",
+	        "values": [
+	            {
+	                "value": "lundi"
+	            },
+	            {
+	                "value": "mardi"
+	            },
+	            {
+	                "value": "mercredi"
+	            },
+	            {
+	                "value": "jeudi"
+	            },
+	            {
+	                "value": "vendredi"
+	            },
+	            {
+	                "value": "samedi"
+	            },
+	            {
+	                "value": "dimanche"
+	            }
+	        ]
+	    },
+	    {
+	        "name": "mysubwayScheduleType",
+	        "values": [
+	            {
+	                "value": "J.F. Kennedy"
+	            },
+	            {
+	                "value": "Villejean-Université"
+	            },
+	            {
+	                "value": "Pontchaillou"
+	            },
+	            {
+	                "value": "Anatole France"
+	            },
+	            {
+	                "value": "Sainte-Anne"
+	            },
+	            {
+	                "value": "République"
+	            },
+	            {
+	                "value": "Charles de Gaulle"
+	            },
+	            {
+	                "value": "Gares"
+	            },
+	            {
+	                "value": "Jacques Cartier"
+	            },
+	            {
+	                "value": "Clemenceau"
+	            },
+	            {
+	                "value": "Henri Fréville"
+	            },
+	            {
+	                "value": "Italie"
+	            },
+	            {
+	                "value": "Triangle"
+	            },
+	            {
+	                "value": "Le Blosne"
+	            },
+	            {
+	                "value": "La Poterie"
+	            }
+	        ]
+	    }
+	],
+	"alexa": {
+		"interactionModel": {
+			"languageModel": {
+				"intents": [
+					{
+						"name": "AMAZON.CancelIntent",
+						"samples": []
+					},
+					{
+						"name": "AMAZON.HelpIntent",
+						"samples": []
+					},
+					{
+						"name": "AMAZON.StopIntent",
+						"samples": []
+					}
+				]
+			}
+		}
+	},
+	"dialogflow": {
+		"intents": [
+			{
+				"name": "Default Fallback Intent",
+				"auto": true,
+				"webhookUsed": true,
+				"fallbackIntent": true
+			},
+			{
+				"name": "Default Welcome Intent",
+				"auto": true,
+				"webhookUsed": true,
+				"events": [
+					{
+						"name": "WELCOME"
+					}
+				]
+			}
+		]
+	}
+}

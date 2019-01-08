@@ -1,0 +1,15 @@
+{
+	"alexaSkill": {
+		"nlu": {
+			"name": "alexa"
+		},
+	    "skillId": "amzn1.ask.skill.09f2d0e2-c541-4306-b1cf-6900655d16b6",
+	    "askProfile": "default"
+	},
+	"endpoint": "https://webhook.jovo.cloud/8bde4ff2-17e0-47de-9b3a-fa3b92987fb5",
+	"googleAction": {
+		"nlu": {
+			"name": "dialogflow"
+		}
+	}
+}

@@ -1,0 +1,44 @@
+[
+	{
+		"value": "lundi",
+		"synonyms": [
+			"lundi"
+		]
+	},
+	{
+		"value": "mardi",
+		"synonyms": [
+			"mardi"
+		]
+	},
+	{
+		"value": "mercredi",
+		"synonyms": [
+			"mercredi"
+		]
+	},
+	{
+		"value": "jeudi",
+		"synonyms": [
+			"jeudi"
+		]
+	},
+	{
+		"value": "vendredi",
+		"synonyms": [
+			"vendredi"
+		]
+	},
+	{
+		"value": "samedi",
+		"synonyms": [
+			"samedi"
+		]
+	},
+	{
+		"value": "dimanche",
+		"synonyms": [
+			"dimanche"
+		]
+	}
+]

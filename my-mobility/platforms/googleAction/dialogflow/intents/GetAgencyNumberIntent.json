@@ -1,0 +1,17 @@
+{
+	"name": "GetAgencyNumberIntent",
+	"auto": true,
+	"webhookUsed": true,
+	"responses": [
+		{
+			"parameters": [
+				{
+					"isList": false,
+					"name": "agency",
+					"value": "$agency",
+					"dataType": "@myAgencyInputType"
+				}
+			]
+		}
+	]
+}

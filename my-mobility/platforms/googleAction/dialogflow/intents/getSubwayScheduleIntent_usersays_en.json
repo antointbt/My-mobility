@@ -1,0 +1,46 @@
+[
+	{
+		"data": [
+			{
+				"text": "station",
+				"userDefined": true,
+				"alias": "station",
+				"meta": "@mysubwayScheduleType"
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	},
+	{
+		"data": [
+			{
+				"text": "l'horaire du metro à la station ",
+				"userDefined": false
+			},
+			{
+				"text": "station",
+				"userDefined": true,
+				"alias": "station",
+				"meta": "@mysubwayScheduleType"
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	},
+	{
+		"data": [
+			{
+				"text": "Qu'elle est l'horaire de la station ",
+				"userDefined": false
+			},
+			{
+				"text": "station",
+				"userDefined": true,
+				"alias": "station",
+				"meta": "@mysubwayScheduleType"
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	}
+]

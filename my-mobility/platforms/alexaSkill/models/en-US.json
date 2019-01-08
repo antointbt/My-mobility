@@ -1,0 +1,253 @@
+{
+	"interactionModel": {
+		"languageModel": {
+			"invocationName": "my mobility",
+			"types": [
+				{
+					"name": "myAgencyInputType",
+					"values": [
+						{
+							"id": null,
+							"name": {
+								"value": "Espace Korrigo"
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Pré Botté"
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Maison du VELO"
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Henri Fréville"
+							}
+						}
+					]
+				},
+				{
+					"name": "myAgencyScheduleType",
+					"values": [
+						{
+							"id": null,
+							"name": {
+								"value": "lundi"
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "mardi"
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "mercredi"
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "jeudi"
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "vendredi"
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "samedi"
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "dimanche"
+							}
+						}
+					]
+				},
+				{
+					"name": "mysubwayScheduleType",
+					"values": [
+						{
+							"id": null,
+							"name": {
+								"value": "J.F. Kennedy"
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Villejean-Université"
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Pontchaillou"
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Anatole France"
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Sainte-Anne"
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "République"
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Charles de Gaulle"
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Gares"
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Jacques Cartier"
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Clemenceau"
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Henri Fréville"
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Italie"
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Triangle"
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Le Blosne"
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "La Poterie"
+							}
+						}
+					]
+				}
+			],
+			"intents": [
+				{
+					"name": "HelloWorldIntent",
+					"samples": [
+						"hello",
+						"say hello",
+						"say hello world"
+					]
+				},
+				{
+					"name": "GetAgencyIntent",
+					"samples": [
+						"Qu'elle sont les agences de la star",
+						"Qu'elle sont les agences",
+						"Donne moi les agences de la star"
+					]
+				},
+				{
+					"name": "GetAgencyNumberIntent",
+					"samples": [
+						"{agency}",
+						"Qu'elle est le numero de l'agence {agency}",
+						"Qu'elle est le telephone de l'agence {agency}",
+						"Donne moi le telephone de l'agence {agency}"
+					],
+					"slots": [
+						{
+							"name": "agency",
+							"type": "myAgencyInputType"
+						}
+					]
+				},
+				{
+					"name": "GetAgencyScheduleIntent",
+					"samples": [
+						"{day}",
+						"Qu'elle est sont horaire du {day}",
+						"Donne moi son horaire du {day}"
+					],
+					"slots": [
+						{
+							"name": "day",
+							"type": "myAgencyScheduleType"
+						}
+					]
+				},
+				{
+					"name": "getSubwayScheduleIntent",
+					"samples": [
+						"{station}",
+						"l'horaire du metro à la station {station}",
+						"Qu'elle est l'horaire de la station {station}"
+					],
+					"slots": [
+						{
+							"name": "station",
+							"type": "mysubwayScheduleType"
+						}
+					]
+				},
+				{
+					"name": "AMAZON.CancelIntent",
+					"samples": []
+				},
+				{
+					"name": "AMAZON.HelpIntent",
+					"samples": []
+				},
+				{
+					"name": "AMAZON.StopIntent",
+					"samples": []
+				}
+			]
+		}
+	}
+}

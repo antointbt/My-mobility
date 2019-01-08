@@ -1,0 +1,17 @@
+{
+	"name": "getSubwayScheduleIntent",
+	"auto": true,
+	"webhookUsed": true,
+	"responses": [
+		{
+			"parameters": [
+				{
+					"isList": false,
+					"name": "station",
+					"value": "$station",
+					"dataType": "@mysubwayScheduleType"
+				}
+			]
+		}
+	]
+}
