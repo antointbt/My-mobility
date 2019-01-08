@@ -14,10 +14,16 @@
 My-Mobility est un programme destiné à un assistant vocal tel que Google Home, ou Amazon Alexa.
 Cette application, permet de poser des questions à un assistant vocal sur les transports en commun (ici Rennes Métropole)
 
-```sh
-$ jovo new <directory>
+## Installer nodejs et npm
 
-## Alternative
-$ jovo new <directory> --template helloworld
+
+## Installer dépendances
+```sh
+$ npm install
+
+## Deployer application
+$ jovo build // Build l'application
+$ jovo deploy // Deploy l'application sur la plateforme de Alexa et de Google Home
+$ jovo run // Run l'application en lançant un serveur sur le port 3000
 ```
 
