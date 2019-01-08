@@ -9,12 +9,14 @@
 <a href="https://github.com/jovotech/jovo-cli"><strong>CLI </strong></a></p>
 <br/>
 
-## Installer My-Mobility
+## My-Mobility
 
 My-Mobility est un programme destiné à un assistant vocal tel que Google Home, ou Amazon Alexa.
 Cette application, permet de poser des questions à un assistant vocal sur les transports en commun (ici Rennes Métropole)
 
-### Installer nodejs et npm
+## Installer My-Mobility
+
+Installer nodejs et npm
 
 
 ## Installer dépendances
