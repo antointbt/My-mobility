@@ -18,8 +18,7 @@ Cette application, permet de poser des questions à un assistant vocal sur les t
 
 Installer nodejs et npm
 
-
-## Installer dépendances
+### Installer dépendances
 ```sh
 $ npm install
 
